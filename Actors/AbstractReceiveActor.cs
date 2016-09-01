@@ -25,15 +25,15 @@ namespace AkkaSample.Actors
 			Become(ListenForCommands);
 		}
 
-		protected override void PreRestart(Exception reason, object message)
-		{
-			foreach (var each in Context.GetChildren())
-			{
-				Context.Unwatch(each);
-				Context.Stop(each);
-			}
-			PostStop();
-		}
+		//protected override void PreRestart(Exception reason, object message)
+		//{
+		//	foreach (var each in Context.GetChildren())
+		//	{
+		//		Context.Unwatch(each);
+		//		Context.Stop(each);
+		//	}
+		//	PostStop();
+		//}
 
 		protected abstract string NextActorName { get; }
 

@@ -1,3 +1,5 @@
 /packages
 /obj
 /bin
+/.vs/AkkaSample/v14/*.suo
+/.vs

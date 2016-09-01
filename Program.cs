@@ -12,13 +12,13 @@ namespace AkkaSample
 
 			var service = Bootstrapper.Container.Resolve<ITradingSystemService>();
 
-			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 50m, 1);
-			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 63m, 1);
-			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 99m, 1);
-			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 78m, 1);
-			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 25m, 1);
-			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 28m, 1);
-			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 73m, 1);
+			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 10m, 1);
+			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 11m, 2);
+			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 12m, 1);
+			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 13m, 2);
+			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 14m, 1);
+			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 15m, 2);
+			service.CreateNewTrade(Guid.NewGuid(), Guid.NewGuid(), 16m, 1);
 
 			Console.ReadLine();
 
